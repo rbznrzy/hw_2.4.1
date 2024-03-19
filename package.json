@@ -1,0 +1,14 @@
+{
+  "name": "hw_3.1.1",
+  "version": "1.0.0",
+  "description": "Repo for hw_3.1.1",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Igor Akberdin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
