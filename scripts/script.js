@@ -4,8 +4,9 @@ const calculateBonus = (a, b) => { // передаются заданные па
   debugger; // значение @sum приняло в данном случае 44
   sum > 50 ? (bonus = 50) : (bonus = sum); // тернарный оператор проверяет условие, если оно true - выполняется первое выражение, если false - второе
   debugger; // значение @bonus приняло в данном случае 44
-  console.log(bonus); // вывод в консоль значение @bonus равное 44
   return bonus
 };
 
-calculateBonus(33, 11)
+module.exports = calculateBonus;
+
+
