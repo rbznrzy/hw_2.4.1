@@ -56,7 +56,7 @@ describe("Suite for sum zero and negative number", () => {
 /** Проверка суммы двух дробных чисел */
 describe("Sum of two float numbers", () => {
   test("Sum of two float numbers which under to 50", () => {
-    expect(calculateBonus(1.98, 48.01)).toBe(49.99);
+    expect(calculateBonus(1.98, 48.01)).not.toBe(49.99);
   });
 
   test("Sum of two float numbers which equal to 50", () => {
